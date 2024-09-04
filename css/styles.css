@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#provincias-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.provincia {
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid #333;
+    background-color: #fff;
+    width: 150px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.provincia:hover {
+    background-color: #e0e0e0;
+}
+
+#resultado {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
