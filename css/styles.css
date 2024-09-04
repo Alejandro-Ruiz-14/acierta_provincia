@@ -87,3 +87,11 @@ button:hover {
     background-color: #357abd;
 }
 
+#resultado {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    white-space: pre-line; /* Permite los saltos de línea en el texto */
+    display: none; /* Oculto inicialmente */
+}
